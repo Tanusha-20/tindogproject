@@ -1,0 +1,165 @@
+body {
+  font-family: "Montserrat-bold";
+  text-align: center;
+
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* SECTION */
+.coloured-section{
+  background-color:  #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+  color: #000;
+}
+
+h1,h3{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+
+}
+
+
+
+/*--Navigation bar */
+.navbar {
+  padding:0 0 4.5rem;
+  padding-top: 2rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+font-size:1.5;
+font-family: "Montserrat-light";
+}
+
+/* TITLE SECTION */
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+/* Download Button */
+.download {
+  margin: 5% 3% 5% 0;
+
+}
+
+/* Title Image*/
+.title-image {
+  width: 25%;
+  transform: rotate(25deg);
+  margin-right: 20px;
+  position: absolute;
+
+}
+h2 {
+  color: #fff;
+  font-family: "Ubuntu";
+  font-size:  3rem;
+  line-height: 1.5
+}
+h3 {
+  color: black;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-box {
+
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+
+  background-color: #ef8172;
+
+}
+.testimonials-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+#press {
+
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+  /* CTA */
+
+.cta-button {
+  margin: 3rem 1rem;
+}
+.fab {
+  margin-right: 3px;
+}
+
+/* FOOTER SECTION */
+.social-icons{
+  margin: 20px 10px;
+}
+
+
+/* MEDIS QUERIES BREAKPOINTS */
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    width:60%;
+    transform: rotate(0);
+  }
+}
